@@ -45,20 +45,19 @@ The dataset used in this project is a **diabetes dataset** from the [Diabetes pr
 diabetes-detection/
 │
 ├── data/                        # Folder for storing datasets
-│   └── dataset.csv              # Example dataset
+│   └── diabetes_prediction_dataset.csv
 │
 ├── notebooks/                   # Folder for Jupyter Notebooks
 │   └── diabetes_detection.ipynb # Jupyter notebook containing the code
 │
 ├── models/                      # Folder for saving the model
-│   └── diabetes_model.pth       # Saved model file
+│   └── diabetedModel.pth
+|   └── diabetedModelStateDict.pth
 │
 ├── outputs/                     # Folder for storing output files
-│   └── outputcsv.csv            # Generated output CSV
+│   └── output_diabetes.csv      # Generated output CSV
 │
 ├── requirements.txt             # List of required Python libraries (for reproducibility)
-├── README.md                    # Project description
-└── .gitignore                   # Git ignore file to exclude unnecessary files
 ```
 
 ## Requirements
